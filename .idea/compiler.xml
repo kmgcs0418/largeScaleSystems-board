@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="practice-board.service.article.main" />
+        <module name="practice-board.service.article-read.main" />
+        <module name="practice-board.service.comment.test" />
+        <module name="practice-board.common.test" />
+        <module name="practice-board.service.hot-article.main" />
+        <module name="practice-board.service.article-read.test" />
+        <module name="practice-board.service.comment.main" />
+        <module name="practice-board.test" />
+        <module name="practice-board.service.view.main" />
+        <module name="practice-board.service.view.test" />
+        <module name="practice-board.main" />
+        <module name="practice-board.service.article.test" />
+        <module name="practice-board.service.main" />
+        <module name="practice-board.service.like.main" />
+        <module name="practice-board.service.test" />
+        <module name="practice-board.common.main" />
+        <module name="practice-board.service.hot-article.test" />
+        <module name="practice-board.service.like.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+</project>
