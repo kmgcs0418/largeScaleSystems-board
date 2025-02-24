@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/article-read/practice-board.service.article-read.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/article-read/practice-board.service.article-read.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/article/practice-board.service.article.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/article/practice-board.service.article.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/comment/practice-board.service.comment.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/comment/practice-board.service.comment.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/hot-article/practice-board.service.hot-article.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/hot-article/practice-board.service.hot-article.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/like/practice-board.service.like.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/like/practice-board.service.like.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/view/practice-board.service.view.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service/view/practice-board.service.view.main.iml" />
     </modules>
   </component>
 </project>
