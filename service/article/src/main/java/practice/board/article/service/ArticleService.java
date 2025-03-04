@@ -7,6 +7,7 @@ import practice.board.article.entity.Article;
 import practice.board.article.repository.ArticleRepository;
 import practice.board.article.service.request.ArticleCreateRequest;
 import practice.board.article.service.request.ArticleUpdateRequest;
+import practice.board.article.service.response.ArticlePageResponse;
 import practice.board.article.service.response.ArticleResponse;
 import practice.board.common.snowflake.Snowflake;
 
@@ -38,6 +39,18 @@ public class ArticleService {
     @Transactional
     public void delete(Long articleId) {
         articleRepository.deleteById(articleId);
+    }
+
+    public ArticlePageResponse readAll(Long boardId, Long page, Long pageSize) {
+        return ArticlePageResponse.of(
+                articleRepository.findAll(boardId, (page - 1) * pageSize, pageSize).stream()
+                        .map(ArticleResponse::from)
+                        .toList(),
+                articleRepository.count(
+                        boardId,
+                        PageLimitCalculator.calculatePageLimit(page, pageSize, 10L)
+                )
+        );
     }
 
 }
