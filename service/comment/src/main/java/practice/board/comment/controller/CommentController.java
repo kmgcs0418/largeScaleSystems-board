@@ -6,8 +6,6 @@ import practice.board.comment.service.response.CommentResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-
 @RestController
 @RequiredArgsConstructor
 public class CommentController {
